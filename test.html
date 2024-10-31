@@ -3,25 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Win R Studios</title>
+    <title>Support Our Film</title>
     <style>
         body {
             font-family: Arial, sans-serif;
             margin: 0;
-            padding: 0;
+            padding: 20px;
             color: #fff;
             background: linear-gradient(135deg, #6656a7, #2c2c2c);
-            animation: backgroundAnimation 10s infinite alternate;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
         }
-        
-        @keyframes backgroundAnimation {
-            0% { background: linear-gradient(135deg, #f8f6f6, #2c2c2c); }
-            100% { background: linear-gradient(135deg, #333, #444); }
-        }
-        
+       
         header {
             background: rgba(26, 0, 19, 0.8);
             padding: 20px;
@@ -32,89 +23,23 @@
             top: 0;
             z-index: 1000;
         }
-
-        nav {
-            margin-top: 10px;
-        }
-
-        nav a {
-            color: #fff;
-            margin: 0 15px;
-            text-decoration: none;
-            transition: color 0.3s;
-        }
-
-        nav a:hover {
-            color: #ffd500;
-        }
-        
         h1 {
             color: #ffffff;
             text-shadow: 0 0 10px rgba(255, 87, 51, 0.8);
-            font-size: 5rem;
         }
-        
+       
         .container {
             max-width: 800px;
-            margin: 80px auto; /* Space for the fixed header */
+            margin: 20px auto;
             padding: 20px;
             background: rgba(69, 141, 142, 0.8);
             border-radius: 8px;
-            box-shadow: 0 2px 5px rgb(41, 0, 0);
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
         }
-        
-        h2 {
-            color: #FFD700;
-            text-shadow: 0 0 10px rgba(255, 215, 0, 0.7);
+        .home-button {
+            margin-bottom: 20px;
+            display: inline-block;
         }
-        
-        .services {
-            display: flex;
-            justify-content: space-between;
-            flex-wrap: wrap;
-        }
-        
-        .service {
-            background: rgb(1, 67, 87);
-            padding: 15px;
-            margin: 10px;
-            flex: 1 1 calc(30% - 20px); /* Three services per row */
-            border-radius: 8px;
-            box-shadow: 0 2px 5px rgb(41, 0, 0);
-            transition: transform 0.3s;
-        }
-        
-        .service:hover {
-            transform: scale(1.05);
-            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
-        }
-        
-        .form-container {
-            margin: 20px 0;
-            padding: 10px;
-            background: rgba(210, 210, 210, 0.8);
-            border-radius: 8px;
-            box-shadow: 0 2px 5px rgba(74, 1, 1, 0.3);
-        }
-        
-        iframe {
-            border: none;
-            border-radius: 8px;
-            box-shadow: 0 0 10px rgba(119, 0, 93, 0.7);
-            width: 100%;
-            height: 800px; /* Adjust height as needed */
-        }
-        
-        .promo {
-            margin: 20px 0;
-            padding: 10px;
-            background: rgba(255, 87, 51, 0.7);
-            border-radius: 8px;
-            text-align: center;
-            font-size: 1.2em;
-            color: #fff;
-        }
-        
         .button {
             background-color: #FFD700;
             color: #333;
@@ -123,70 +48,47 @@
             border-radius: 5px;
             cursor: pointer;
             font-size: 1em;
-            margin: 10px;
-            transition: background-color 0.3s, transform 0.3s;
+            margin-top: 20px;
             text-decoration: none;
             display: inline-block;
+            transition: background-color 0.3s, transform 0.3s;
         }
-        
         .button:hover {
             background-color: #ffcc00;
             transform: scale(1.05);
         }
         
-        .ads-container {
-            margin: 20px 0;
-            text-align: center;
-            background: rgba(0, 0, 0, 0.7);
-            padding: 20px;
-            border-radius: 8px;
-        }
-        
-        @media (max-width: 600px) {
-            .service {
-                flex: 1 1 100%; /* Stack services on smaller screens */
-            }
-        }
     </style>
 </head>
 <body>
 
 <header>
-    <h1>Win R Studios</h1>
-    <nav>
-        <a href="INDEX.html">Home</a>
-        <a href="web_design.html">Web Site Design</a>
-        <a href="film_direction.html">Film Direction</a>
-        <a href="event_photography_videography.html">Event Photography & Videography</a>
-        <a href="youtube_channel.html">YouTube Channel</a>
-        <a href="google_adsense.html">Google AdSense</a>
-        <a href="auditions.html">Auditions</a>
-        <a href="design_services.html">Designing</a>
-        <a href="donate.html">Support</a>
-        <a href="cow_dung_products.html">COW DUNG PRODUCTS</a>
-    </nav>
+    <h1>Support Our Film</h1>
+    <p>Help Us Make Our Movie a Reality!</p>
+    <a href="INDEX.html" class="button home-button">Home</a>
 </header>
 
 <div class="container">
-    <h2>Auditions - Sign Up Now</h2>
-    <div class="form-container">
-        <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdpWdyVGeAK3giYltJXokskETVjE3ia7WGZLAZGKZGQOX2vJA/viewform?embedded=true" width="640" height="1473" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
-    </div>
+  
     
-    <div class="ads-container">
-        <p> </p>
-        <!-- You can add Google Ads code here -->
-    </div>
-    
-    <div class="promo">
-        <p>Ready to take the next step in your acting career? Fill out the audition sign-up form for hassle-free auditions! We’re excited to discover new talent.</p>
-        <p>Your support is invaluable to us as we plan our upcoming feature film. Every donation helps us bring our vision to life. Please consider making a contribution!</p>
-        
-        <!-- Razorpay Donation Button -->
-        <form>
-            <script src="https://checkout.razorpay.com/v1/payment-button.js" data-payment_button_id="pl_PF7tLwKQbIbFDb" async></script>
-        </form>
-    </div>   
+    <h2>Why Your Support Matters</h2>
+    <p>Creating a film is a collaborative effort that requires not just talent, but also resources. From scriptwriting and casting to filming and editing, every aspect of production comes with costs. By contributing to our campaign, you’re not just donating; you’re investing in creativity, storytelling, and the magic of cinema.</p>
+
+    <h2>How You Can Help</h2>
+    <ul>
+        <li><strong>Donate:</strong> Every contribution, big or small, makes a difference.</li>
+        <li><strong>Share Our Campaign:</strong> Spread the word with your friends and family.</li>
+        <li><strong>Engage with Us:</strong> Follow our journey and stay updated.</li>
+    </ul>
+
+    <h2>Join Us on This Journey</h2>
+    <p>Together, we can create something truly special. Your generosity will help us produce this film and share our story with the world.</p>
+
+    <form>
+        <script src="https://checkout.razorpay.com/v1/payment-button.js" data-payment_button_id="pl_PF7tLwKQbIbFDb" async></script>
+    </form>
+
+    <p>Thank you for believing in our dream!</p>
 </div>
 
 </body>
